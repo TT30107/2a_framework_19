@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+ <form th:action="@{/gititemedit}" method="post">
+        <label for="productName">商品名:</label>
+        <input type="text" id="productName" name="productName" th:value="${productName}" required>
+        
+        <label for="productPrice">値段:</label>
+        <input type="text" id="productPrice" name="productPrice" th:value="${productPrice}" required>
+        
+        <button type="submit">変更ボタン</button>
+    </form>
+</body>
+</html>
