@@ -1,5 +1,5 @@
 package com.example.demo.controller;
 
-public class BranchController {
+public class BranchControler {
 	//isobe
 }
